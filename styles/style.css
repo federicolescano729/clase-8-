@@ -28,6 +28,7 @@ body {
 .reviews-text {
     display:flex;
     gap: 30px;
+    margin-bottom: 20px;
 }
 
 .reviews-text header {
@@ -37,13 +38,14 @@ body {
 
 .reviews-text header h2 {
     font-size: 45px;
-    color:var(--dark-magenta);
+    color:var(--Dark-magenta);
     margin-bottom: 20px;    
 }
 
 .reviews-text header p {
    font-size: 15px;
-   color:var(--medium-magenta)
+   color:var(--medium-magenta);
+   line-height: 1.3;
 }
 
 .reviews-stars {
@@ -76,4 +78,55 @@ body {
 
 .reviews-valoration h3 {
     font-size: 15px;
+}
+
+/* Segunda parte */
+
+.reviews-cards {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.reviews-cards article {
+    background-color: var(--Dark-Magenta);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.reviews-cards article h3 {
+    color: var(--light-magenta)
+}
+
+.reviews-cards article strong {
+    color: var(--Pink);
+}
+
+.reviews-cards article blockquote {
+    color: var(--light-magenta);
+    line-height:1.3;
+}
+
+.reviews-cards article>div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* selector por hijo directo */
+.reviews-cards article>div img {
+    border-radius: 50%;
+width: 60px;
+}
+
+/* selector especifico por n de hijo */
+.reviews-card article:nth-child(2) {
+    margin-top: 18px;
+}
+
+.reviews-card article:nth-child(3) {
+    margin-top: 34px;
 }
