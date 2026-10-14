@@ -130,3 +130,69 @@ width: 60px;
 .reviews-card article:nth-child(3) {
     margin-top: 34px;
 }
+
+
+/* Para Celular y Tablet */
+
+@media (max-width: 980px) {
+    #reviews-home {
+         width: 100%;
+    }
+
+.reviews-text {
+    flex-direction: column;
+    text-align: center;
+}
+
+.reviews-text header {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.reviews-stars {
+    width: 100%;   
+}
+
+.reviews-valoration {
+    width: 100%;
+    flex-direction: column;
+}
+
+.reviews-cards {
+    flex-direction: column;
+}
+
+.reviews-card article:nth-child(2) {
+    margin-top: 0;
+}
+
+.reviews-card article:nth-child(3) {
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
